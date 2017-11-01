@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.aciurea.timebwoy.MainActivity">
 
+
+    <fragment android:name="com.example.aciurea.timebwoy.Frag"
+        android:id="@+id/headlines_fragment"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+
     <Button
         android:id="@+id/button"
         android:layout_width="88dp"
